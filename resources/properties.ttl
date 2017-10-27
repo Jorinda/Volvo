@@ -1,0 +1,189 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix new: <http://example.com/kad2017/> .
+@prefix ns3: <http://dbpedia.org/resource/Volvo_S40/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Volvo_440/460> rdfs:description "The Volvo 440 and 460 are versions of a small family car produced by the Swedish manufacturer Volvo between 1987 and 1997. The 440 was introduced in 1987, whilst the 460 followed in 1989. They were built at the NedCar factory in Born, The Netherlands. The 440 was a 5-door front wheel drive hatchback and the 460 a saloon. They shared many components with the already-successful Volvo 480, including floorpan, front and rear suspension, engines, transmission and braking systems."@en ;
+    rdfs:height 1.3899999999999999023 ;
+    rdfs:length 4.3120000000000002771 ;
+    rdfs:made_in <http://dbpedia.org/resource/Born,_Netherlands> ;
+    rdfs:predecessor dbr:Volvo_300_Series ;
+    rdfs:productionEnd "1997-01-01"^^xsd:gYear ;
+    rdfs:productionStart "1987-01-01"^^xsd:gYear ;
+    rdfs:successor dbr:Volvo_S40 .
+
+dbr:Volvo_V50 rdfs:description "For the sedan variant of the car, see Volvo S40. Volvo Cars introduced the Volvo V50 at the 2003 Bologna Motor Show as the station wagon version of the Volvo S40 small family car—manufacturing both models at their facility in Ghent, Belgium. Sharing the Ford C1 platform with the European Ford Focus and the Mazda 3, the V50 featured interior \"theatre\" lighting, a floating center stack and \"Volvo Intelligent Vehicle Architecture\". The V50 T5 AWD featured four-wheel drive and a straight-5 2.5-litre petrol engine with a light-pressure turbocharger, four valves per cylinder and a DOHC design with variable camshaft timing—providing 220 PS (162 kW; 217 hp) and 320 N·m (236 lb·ft) of torque.Diesel options were available in Europe, including a 2.4 Litre turbocharged D5 diesel engine which provided 180 PS (132 kW; 178 hp) and 350 N·m (258 lb·ft) of torque. Within the United States, Volvo limited sales of the V50 PZEV cars to states where it was required, including California, Florida, Vermont, Connecticut, Arizona, Maryland, Massachusetts, Pennsylvania, New York, Oregon, Maine, New Jersey, Rhode Island, New Mexico and Washington. Volvo Cars Special Vehicle produced a concept car based on the V50, the V50 SV, whose engine produces 340 hp (254 kW), and debuted at the 2004 Specialty Equipment Market Association tradeshow in Las Vegas, Nevada."@en ;
+    rdfs:height 1.4519999999999999574 ;
+    rdfs:length 4.5140000000000002345 ;
+    rdfs:made_in dbr:Ghent,
+        dbr:Pretoria,
+        dbr:Shah_Alam ;
+    rdfs:predecessor ns3:V40 ;
+    rdfs:productionEnd "2012-01-01"^^xsd:gYear ;
+    rdfs:productionStart "2004-01-01"^^xsd:gYear ;
+    rdfs:successor <http://dbpedia.org/resource/Volvo_V40_(2013-)> .
+
+new:Volvo_940 "http://example.com/kad2017/new#description" "JSFDJKDSFJKdfgergfgh",
+        "SFDJHS",
+        "sdfe" ;
+    "http://example.com/kad2017/new#height" "DATA",
+        "Test",
+        "ik" ;
+    "http://example.com/kad2017/new#length" "TEST",
+        "Test",
+        "ben " ;
+    "http://example.com/kad2017/new#made_in" "New infor",
+        "TESTDATA",
+        "hoi" ;
+    "http://example.com/kad2017/new#predecessor" "SDFJSD",
+        "SDSDFJH",
+        "sde" ;
+    "http://example.com/kad2017/new#productionEnd" "SDFJKL",
+        "Test",
+        "de" ;
+    "http://example.com/kad2017/new#productionStart" "SDF",
+        "Test",
+        "jorinda" ;
+    "http://example.com/kad2017/new#successor" "JHSDFJKS",
+        "Test",
+        "weijwe" .
+
+new:Volvo_960 "http://example.com/kad2017/new#description" "Test data" ;
+    "http://example.com/kad2017/new#height" "200" ;
+    "http://example.com/kad2017/new#length" "4" ;
+    "http://example.com/kad2017/new#made_in" "China" ;
+    "http://example.com/kad2017/new#predecessor" "Opel Astra" ;
+    "http://example.com/kad2017/new#productionEnd" "12-26-2017" ;
+    "http://example.com/kad2017/new#productionStart" "11-11-2012" ;
+    "http://example.com/kad2017/new#successor" "Volvo Bingo" .
+
+new:Volvo_V60 "http://example.com/kad2017/new#description" "TESSAD" ;
+    "http://example.com/kad2017/new#height" "From" ;
+    "http://example.com/kad2017/new#length" "The" ;
+    "http://example.com/kad2017/new#made_in" "Hello" ;
+    "http://example.com/kad2017/new#predecessor" "TEST" ;
+    "http://example.com/kad2017/new#productionEnd" "Slide" ;
+    "http://example.com/kad2017/new#productionStart" "Otter" ;
+    "http://example.com/kad2017/new#successor" "TeST" .
+
+dbr:Volvo_480 rdfs:description "The Volvo 480 is a compact car that was produced in Born, Netherlands, by Volvo from 1986 to 1995. It was the first front-wheel drive car made by the automaker. The 480 was available in only one body style on a automobile platform related to the Volvo 440/460 five-door hatchback and four-door sedan models. It features an unusual 4-seat, 3-door hatchback body, somewhere between liftback and estate in form. The 480 was marketed as a coupé in Europe starting in 1986 and the U.S. as a 2+2 \"sports wagon\" in the fall 1987."@en ;
+    rdfs:height 1.3180000000000000604 ;
+    rdfs:length 4.2580000000000000071 ;
+    rdfs:made_in <http://dbpedia.org/resource/Born,_Netherlands> ;
+    rdfs:predecessor dbr:Volvo_P1800 ;
+    rdfs:productionEnd "1986-01-01"^^xsd:gYear ;
+    rdfs:productionStart "1986-01-01"^^xsd:gYear ;
+    rdfs:successor dbr:Volvo_C30 .
+
+dbr:Volvo_850 rdfs:description "The Volvo 850 is a compact executive car that was produced by the Swedish manufacturer Volvo Cars from 1991 to 1996. Designed by Jan Wilsgaard it was available in saloon and estate body styles. The 850 was the first front-wheel drive vehicle from Volvo to be sold in North America and also the first all-wheel drive Volvo. The range was replaced for 1997 by the Volvo S70 and Volvo V70."@en ;
+    rdfs:height 1.4150000000000000355 ;
+    rdfs:length 4.6609999999999995879 ;
+    rdfs:made_in dbr:Canada,
+        <http://dbpedia.org/resource/Ghent,_Belgium>,
+        dbr:Halifax_Regional_Municipality,
+        dbr:Sweden,
+        dbr:Torslanda ;
+    rdfs:predecessor dbr:Volvo_200_Series ;
+    rdfs:productionEnd "1996-01-01"^^xsd:gYear ;
+    rdfs:productionStart "1991-01-01"^^xsd:gYear ;
+    rdfs:successor dbr:Volvo_S70,
+        dbr:Volvo_V70 .
+
+dbr:Volvo_C30 rdfs:description "The Volvo C30 is a compact four-seater manufactured and marketed by Volvo Cars for model years 2006-2013, available across its single generation as a three-door hatchback. Powered by inline-four and straight-five engines, the C30 is variant of the Volvo S40/V50/C70 range, sharing the same Ford C1/Volvo P1 platform. Volvo marketed the C30 as a premium hatchback / sports coupe. The C30's rear styling and frameless glass rear hatch recall Volvo's earlier P1800 ES and Volvo 480."@en ;
+    rdfs:height 1.4470000000000000639 ;
+    rdfs:length 4.2519999999999997797 ;
+    rdfs:made_in dbr:Ghent ;
+    rdfs:predecessor dbr:Volvo_480 ;
+    rdfs:productionEnd "2013-01-01"^^xsd:gYear ;
+    rdfs:productionStart "2006-01-01"^^xsd:gYear ;
+    rdfs:successor <http://dbpedia.org/resource/Volvo_V40_(P1)> .
+
+dbr:Volvo_S70 rdfs:description "The Volvo S70 was a mid-size luxury saloon produced by Volvo Cars from 1996 to 2000. The S70 was essentially a facelifted 850 saloon. The S70 was replaced with the Volvo S60."@en ;
+    rdfs:height 1.401999999999999913 ;
+    rdfs:length 4.7220000000000004192 ;
+    rdfs:made_in dbr:Belgium,
+        dbr:Canada,
+        dbr:Ghent,
+        dbr:Halifax_Regional_Municipality,
+        dbr:Sweden,
+        dbr:Torslanda ;
+    rdfs:predecessor dbr:Volvo_850 ;
+    rdfs:productionEnd "2000-01-01"^^xsd:gYear ;
+    rdfs:productionStart "1996-01-01"^^xsd:gYear ;
+    rdfs:successor dbr:Volvo_S60 .
+
+dbr:Volvo_140_Series rdfs:description """The Volvo 140 Series is a range of compact executive cars which was produced by Volvo Cars of Sweden from 1966 to 1974. The range comprises the Volvo 142 2-door sedan, the Volvo 144 4-door sedan and the Volvo 145 5-door station wagon. Volvo Cars began manufacturing the Volvo 144 at Torslandaverken in the late summer of 1966 for the 1967 model year. The 144 series, which followed the Volvo Amazon (replacing it in its 4th model year), was the first Volvo to use a tri-digit nomenclature, indicating series, number of cylinders and number of doors. Thus, a "144" was a 1st series, 4-cylinder, 4-door sedan. The 144 was the first Volvo to feature a more rectilinear or boxy styling. Compared to the Volvo Amazon, the 140 was a radical departure with minimal exterior and interior carryover, notably a stylised version of the front split grille. The car's basic shape would survive into the 1990s as the 200 series. Mechanically, the car used many of the same drivetrain components as the Amazon, but also showcased many improvements, including disc brakes on all four wheels. It was named car of the year in 1966 by Swedish magazine Teknikens Värld. The engine in the standard 144 was the same as found in the standard Amazon (121), the 1.8l B18A, but the 144S was given the more powerful B18B from the 123GT and 1800S. Late in the 1967 model year production of the Volvo 142 (2-door sedan) began, in time to build 1500 units for the first year. In 1968 production of the Volvo 145 5-door station wagon began, completing the three body styles used in the 140 range. For the 1969 model year Volvo enlarged the B18 to become the 2.0 litre B20 and replaced the generator with a more modern alternator. It was also in 1969 that Volvo introduced the 164, which shared much of the 140 series structure and styling aft of the windshield while incorporating a 6-cylinder engine, the B30 which was simply a B20 with 2 more cylinders and a few strengthened and enlarged components. Volvo also introduced the Express this year (see below). In 1970 a flow-through ventilation system, where vents were added towards the rear of the car (on the exterior under the rear window on the 142 and 144 and as a grille next to the right side taillight of the 145) and electrically defrosted rear windows, were introduced. The split rear side window on the 145 became one piece which was no longer possible to open. In 1971 the first of several styling changes were introduced, including a revised black grille which saw the now ubiquitous Volvo diagonal line introduced as well as new wheels. 1971 also saw the introduction of the B20E, which was a high compression version of the B20 which introduced Bosch D-Jetronic electronic fuel injection, giving a power figure of 100 kW SAE or 90 kW DIN. These new cars were either given the designation E (the German word Einspritzer, or "injection") or GL (for Grand Luxe), which was a more upmarket version of the car. A console on the transmission tunnel with a clock was now standard. The styling changes continued in 1972 with the introduction of flush mounted door handles and a slightly revised dashboard with fake woodgrain trim, newly designed switches and a small central panel with a clock. The transmission tunnel was taken from the 164 as was the same short-shifter gear stick and the automatic transmission became controlled by a T-bar mounted on the floor at the same place. The outer 2 rear seats now had the mounting points for retractable seatbelts. A low compression fuel injected engine, the B20F was introduced for the US and certain other markets. In 1973 the 140 series received a major facelift, with a new plastic grille, new larger indicators and a completely revised tail end. Also, the S designation was dropped and the range consisted of 3 trim levels, standard (with no designation, known as L, or "luxe") de Luxe and the most upmarket, Grand Luxe. The interior also had a completely revised dashboard with a new instrument cluster consisting of dials rather than the strip speedometer previously used, rocker switches replacing the push-pull switches (with the exception of the headlight switch), and vents to direct air towards the person augmenting the defrost and floor vents. In 1974 the B20E/F engine switched from using the Bosch D-jetronic to the K-Jetronic mechanical fuel injection system. Also, several safety changes were introduced including a fuel tank that was located close to the transaxle to protect it in the case of a rear-end collision, and larger bumpers that protruded more from the body. The quarter-light windows in the front doors were removed as a result of the improvements in ventilation inside the car, and small anodised aluminium strips were added to the bottom of the side windows. Total Production 412,986 2-doors sedans, 523,808 4-doors sedans, 268,317 station wagons In 1974 the 140 series evolved into the 240 series for the 1975 model year. The 164 was continued for another year in certain markets. 
+* The first 144 to roll off the production line in August 1966. 
+* 1968 (pre-facelift) Volvo 144 4-door sedan. 
+* 1970 Volvo 142 DL Automatic. 
+* 1971 (including first facelift) Volvo 142 2-door sedan. 
+* 1972 Volvo 144 4-door sedan. 
+* 1972 Volvo 145 station wagon. 
+* 1973 (facelifted) Volvo 145 station wagon."""@en ;
+    rdfs:height 1.4401800000000000157 ;
+    rdfs:length 4.6507399999999998741 ;
+    rdfs:made_in dbr:Ghent,
+        <http://dbpedia.org/resource/Halifax,_Nova_Scotia>,
+        dbr:Melbourne,
+        dbr:Shah_Alam,
+        dbr:Torslanda ;
+    rdfs:predecessor dbr:Volvo_Amazon ;
+    rdfs:productionEnd "1966-01-01"^^xsd:gYear ;
+    rdfs:productionStart "1966-01-01"^^xsd:gYear ;
+    rdfs:successor dbr:Volvo_240 .
+
+dbr:Volvo_164 rdfs:description "The Volvo 164 is a 4-door, 6-cylinder luxury sedan unveiled by Volvo at the Paris Motor Show early in October 1968 and first sold as a 1969 model. 46,008 164s were built before the car was superseded by the 264 in 1975. The 164 was Volvo's first venture into the luxury segment since the end of PV 60 production in 1950, and was the first six-cylinder Volvo since the PV800 last produced in 1958."@en ;
+    rdfs:height 1.4399999999999999467 ;
+    rdfs:length 4.7140000000000004121 ;
+    rdfs:made_in <http://dbpedia.org/resource/Kalmar,_Sweden>,
+        dbr:Torslandaverken ;
+    rdfs:predecessor dbr:Volvo_Amazon,
+        dbr:Volvo_PV800 ;
+    rdfs:productionEnd "1968-01-01"^^xsd:gYear ;
+    rdfs:productionStart "1968-01-01"^^xsd:gYear ;
+    rdfs:successor dbr:Volvo_200_Series .
+
+dbr:Volvo_200_Series rdfs:description "The Volvo 200 series was a range of executive cars produced by Volvo Cars from 1974 to 1993, with more than 2.8 million units sold worldwide. Like the Volvo 140, it was designed by Jan Wilsgaard. It overlapped production of the Volvo 700 series introduced in 1982. As the 240 remained popular, only the 260 was displaced by the 700 series — which Volvo marketed alongside the 240 for another decade. The 700 series was replaced a year before the 240 was discontinued. Production ended on 14 May 1993 after nearly 20 years."@en ;
+    rdfs:height 1.4300200000000000689 ;
+    rdfs:length 4.8234599999999998587 ;
+    rdfs:made_in dbr:Ghent,
+        <http://dbpedia.org/resource/Halifax,_Nova_Scotia>,
+        dbr:Kalmar,
+        dbr:Melbourne,
+        dbr:Shah_Alam,
+        dbr:Swedish_Motor_Assemblies,
+        dbr:Torslanda,
+        dbr:Torslandaverken,
+        dbr:Turin,
+        dbr:Volvo_Car_Gent,
+        dbr:Volvo_Halifax_Assembly,
+        dbr:Volvo_Kalmar_Assembly ;
+    rdfs:predecessor dbr:Volvo_140_Series,
+        dbr:Volvo_164 ;
+    rdfs:productionEnd "1993-01-01"^^xsd:gYear ;
+    rdfs:productionStart "1974-01-01"^^xsd:gYear ;
+    rdfs:successor dbr:Volvo_740,
+        dbr:Volvo_760 .
+
+dbr:Volvo_Amazon rdfs:description "The Volvo Amazon is a mid-size car manufactured and marketed by Volvo Cars from 1956 to 1970 and introduced in the USA as the 122S at the New York International Auto Show in April 1959. The Amazon shared the wheelbase, tall posture and high H-point seating of its predecessor, the PV and was offered two-door sedan, four-door sedan, and a five-door wagon body styles. In 1959 Volvo became the world's first manufacturer to provide front seat belts as standard equipment — by providing them on all Amazon models, including the export models — and later becoming the first car featuring three-point seat belts as standard equipment. When introduced, the car was named the Amason (with an 's'), deriving from the fierce female warriors of Greek mythology, the Amazons. German motorcycle manufacturer Kreidler had already registered the name, and the two companies finally agreed that Volvo could only use the name domestically (i.e., within Sweden), modifying the spelling to Amazon. Subsequently, Volvo began its tri-digit nomenclature and the line became known as the 120 Series. The Amazon was originally manufactured at Volvo's Lundby plant in Gothenburg and subsequently at the company's Torslandaverken plant, which began operating in 1964. By the end of production, 234,653 four-door models, 359,917 two-door models and 73,220 station wagons had been produced, of which 60% were exported; for a total of 667,791 vehicles."@en ;
+    rdfs:height 1.5049999999999998934 ;
+    rdfs:length 4.3949999999999995737 ;
+    rdfs:made_in dbr:Arica,
+        dbr:Divolvo,
+        dbr:Durban,
+        dbr:Ghent,
+        dbr:Halifax_Regional_Municipality,
+        <http://dbpedia.org/resource/Lundby,_Gothenburg>,
+        dbr:Torslanda,
+        dbr:Torslandaverken,
+        dbr:Volvo_Cars_Gent,
+        dbr:Volvo_Halifax_Assembly ;
+    rdfs:predecessor <http://dbpedia.org/resource/Volvo_PV444/544> ;
+    rdfs:productionEnd "1956-01-01"^^xsd:gYear ;
+    rdfs:productionStart "1956-01-01"^^xsd:gYear ;
+    rdfs:successor dbr:Volvo_140_Series,
+        dbr:Volvo_164 .
+

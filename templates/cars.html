@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Volvo</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="http://localhost:5000/static/screen.css" media="screen">
+
+		<!-- JQuery -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+		<!-- DataTables -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+		<script type="text/javascript" src="static/script.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul id="navBar">
+				<li>
+    				<a href="/" class="navButton">
+    					Home
+    				</a>
+				</li>
+				<li>
+    				<a href="/cars" class="navButton">
+    					Cars
+    				</a>
+				</li>
+			</ul>
+		</nav>
+		<header>
+			<div id="headerContainer">
+				<div id="headerText">
+					<h1>Volvo Cars</h1>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="questionBlock">
+			{% for car in cars %}
+				<form action = "/cars" method = "POST">
+					<input type="submit" name="submit" value = "{{car}}">
+				</form>
+				<br><br>
+			{% else %}
+				<p> No entries yet </p>
+			{% endfor %}	
+			</div>
+		</section>
+
+
+		<footer>
+			<h6>&copy; Project Knowledge and Data</h6>
+		</footer>
+	</body>
+</html>

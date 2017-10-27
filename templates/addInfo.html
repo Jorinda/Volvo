@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Volvo</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="http://localhost:5000/static/screen.css" media="screen">
+
+		<!-- JQuery -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+		<!-- DataTables -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+		<script type="text/javascript" src="static/script.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul id="navBar">
+				<li>
+    				<a href="/" class="navButton">
+    					Home
+    				</a>
+				</li>
+				<li>
+    				<a href="/cars" class="navButton">
+    					Cars
+    				</a>
+				</li>
+			</ul>
+		</nav>
+		<header>
+			<div id="headerContainer">
+				<div id="headerText">
+					<h1>{{car}}</h1>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="questionBlock">
+				<form action = '/add_info/{{car}}' method = "POST">
+					Made in:<br>
+ 					<input type="text" name="made_in" placeholder="Please enter the country and city where the car is manufactured"><br>
+  					Height:<br>
+  					<input type="text" name="height" placeholder="Please enter the height in meters"><br>
+  					Length:<br>
+  					<input type="text" name="length" placeholder="Please enter the length in meters"><br>
+  					Start of Production:<br>
+  					<input type="text" name="productionStart" placeholder="Please enter the date of pruduction start dd/mm/yyyy"><br>
+  					End of Production:<br>
+  					<input type="text" name="productionEnd" placeholder="Please enter the date of prucuction end dd/mm/yyyy"><br>
+  					Successor:<br>
+  					<input type="text" name="successor" placeholder="What is the successor of the car?"><br>
+  					Predecessor:<br>
+  					<input type="text" name="predecessor" placeholder="What is the predecessor of the car?"><br>
+  					Description:<br>
+  					<input type="hidden" name="name" value='{{car}}'/>
+  					<input type="hidden" name="myDeepestWish" value='A+'/>
+  					<input type="text" name="description" placeholder="Please give a discription of (the history of) the car"><br><br>
+  					<input type="submit" name="submit">
+				</form>
+			</div>
+		</section>
+		
+		<section>
+			<div class="questionBlock">
+			<form action = "/add_info" method = "PUT">
+					<input type="submit" name="submit" value ="Go back">
+			</form>
+			</div>
+		</section>
+
+		<footer>
+			<h6>&copy; Project Knowledge and Data</h6>
+		</footer>
+	</body>
+</html>

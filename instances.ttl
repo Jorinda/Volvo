@@ -1,0 +1,100 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+dbr:Volvo_900_Series__Volvo_940__1	rdf:name	"Volvo 940"@en .
+dbr:Volvo_900_Series__Volvo_960__1	rdf:name	"Volvo 960"@en ,
+		"Volvo V90"@en ,
+		"Volvo S90"@en .
+dbr:Volvo_200_Series	rdf:name	"Volvo 200 Series"@en .
+dbr:Volvo_S60__Concept__1	rdf:name	"Volvo S60 Concept"@en .
+dbr:Volvo_P2_platform	rdf:name	"Volvo P2 platform"@en ,
+		"Ford D3 platform, a derivative of Volvo's P2 platform"@en .
+dbr:Volvo_Concept_You	rdf:name	"Volvo Concept You"@en ,
+		"Volvo Concept Universe"@en .
+dbr:Volvo_PV_36_Carioca	rdf:name	"Volvo PV36 Carioca"@en .
+dbr:Ford_EUCD_platform	rdf:name	"Ford EUCD platform"@en ,
+		"Volvo P3 platform"@en .
+dbr:Volvo_164	rdf:name	"Volvo 164"@en .
+dbr:Volvo_480	rdf:name	"Volvo 480"@en .
+dbr:Volvo_66	rdf:name	"Volvo 66"@en .
+dbr:Volvo_850	rdf:name	"Volvo 850"@en .
+dbr:Volvo_Amazon	rdf:name	"Volvo 222"@en ,
+		"Model names:"@en ,
+		"Volvo 132"@en ,
+		"Volvo 133"@en ,
+		"Volvo 122"@en ,
+		"Volvo 121"@en ,
+		"Volvo 123GT"@en ,
+		"Volvo Amazon"@en ,
+		"Volvo 223"@en ,
+		"Volvo Canadian"@en ,
+		"120/130/220"@en ,
+		"Volvo 131"@en ,
+		"Volvo 221"@en ,
+		"Bodystyle codes:"@en .
+dbr:Volvo_C30	rdf:name	"Volvo C30"@en .
+dbr:Volvo_C70	rdf:name	"Volvo C70 Convertible"@en .
+dbr:Volvo_Duett	rdf:name	"Volvo Duett"@en .
+dbr:Volvo_P1800	rdf:name	"Volvo P1800"@en .
+dbr:Volvo_P1900	rdf:name	"Volvo P1900"@en ,
+		"Volvo Sport"@en .
+dbr:Volvo_PV51	rdf:name	"Volvo PV51-PV56"@en .
+dbr:Volvo_S40	rdf:name	"Volvo S40"@en .
+dbr:Volvo_S60	rdf:name	"Volvo S60"@en .
+dbr:Volvo_S80	rdf:name	"Volvo S80"@en .
+dbr:Volvo_S90	rdf:name	"Volvo S90/V90"@en .
+<http://dbpedia.org/resource/Volvo_V40_(P1)>	rdf:name	"Volvo V40"@en .
+dbr:Volvo_V50	rdf:name	"Volvo V50"@en .
+dbr:Volvo_V70	rdf:name	"Volvo V70"@en ,
+		"Volvo XC70"@en .
+dbr:Volvo_XC60	rdf:name	"Volvo XC60"@en .
+dbr:Volvo_XC90	rdf:name	"Volvo XC90"@en .
+dbr:Volvo_ÖV_4	rdf:name	"Volvo \u00D6V 4"@en .
+dbr:Volvo_300_Series	rdf:name	"Volvo 300 Series"@en .
+<http://dbpedia.org/resource/Volvo_440/460>	rdf:name	"Volvo 440/460"@en .
+dbr:Volvo_C70__First_generation__1	rdf:name	"First generation"@en .
+dbr:Volvo_C70__Second_generation__1	rdf:name	"Second generation"@en .
+dbr:Volvo_PV800_Series	rdf:name	"Volvo PV800 Series"@en .
+dbr:Volvo_Scalable_Product_Platform	rdf:name	"Volvo SPA platform"@en .
+dbr:Volvo_P80	rdf:name	"Volvo P80 series"@en ,
+		"Volvo 800 series"@en ,
+		"Volvo P800 series"@en ,
+		"Volvo P80 platform"@en .
+dbr:Volvo_V60	rdf:name	"Volvo V60"@en .
+dbr:Volvo_900_Series	rdf:name	"Volvo 900"@en .
+dbr:Volvo_Modular_engine	rdf:name	"Volvo Modular Engine"@en .
+dbr:Volvo_B4B_engine	rdf:name	"B4B, B14, B16"@en .
+<http://dbpedia.org/resource/Volvo_PV444/544>	rdf:name	"Volvo PV444/544"@en .
+dbr:Volvo_140_Series	rdf:name	"Volvo 140"@en .
+dbr:Volvo_PV650_Series	rdf:name	"Volvo PV650 Series"@en .
+dbr:Volvo_TR670_Series	rdf:name	"Volvo TR670 Series"@en .
+dbr:Volvo_262C	rdf:name	"Volvo 262C"@en ,
+		"Volvo Coup\u00E9"@en .
+dbr:Volvo_700_Series	rdf:name	"Volvo 700"@en .
+dbr:Volvo_C303	rdf:name	"Tgb 11"@en ,
+		"Volvo C03 4x4"@en ,
+		"Volvo C303"@en .
+dbr:Volvo_C303__Volvo_C304__1	rdf:name	"Volvo C03 6x6-1-V"@en ,
+		"Tgb 13"@en ,
+		"Volvo C304"@en .
+dbr:Volvo_C303__Volvo_C306__1	rdf:name	"Volvo C03 6x6-5-V"@en ,
+		"Volvo C306"@en ,
+		"Tgb 20"@en .
+dbr:Volvo_LCP2000	rdf:name	"Volvo LCP"@en .
+dbr:Volvo_Philip	rdf:name	"Volvo Philip"@en .
+dbr:Volvo_Venus_Bilo	rdf:name	"Volvo Venus Bilo"@en .
+dbr:Volvo_B8444S_engine	rdf:name	"Volvo B8444S"@en .
+dbr:Volvo_YCC	rdf:name	"Volvo YCC"@en ,
+		"Volvo Your Concept Car"@en .
+dbr:Volvo_Engine_Architecture	rdf:name	"Volvo Engine Architecture"@en .
+dbr:Volvo_S70	rdf:name	"Volvo S70"@en .
+dbr:Volvo_V70__First_generation__1	rdf:name	"First generation"@en ,
+		"Volvo V70 XC"@en .
+dbr:Volvo_V70__Second_generation__1	rdf:name	"Volvo V70 XC (2000\u20132002)"@en ,
+		"Second generation"@en ,
+		"Volvo XC70 (2003\u20132007)"@en .
+dbr:Volvo_V70__Third_generation__1	rdf:name	"Volvo XC70"@en ,
+		"Third generation"@en .
+dbr:Volvo_SCC	rdf:name	"Volvo Safety Concept Car"@en ,
+		"Volvo SCC"@en .
+dbr:Volvo_SI6_engine	rdf:name	"Volvo SI6 engine"@en .
+dbr:Volvo_PV_60	rdf:name	"Volvo PV60"@en .

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Volvo</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="http://localhost:5000/static/screen.css" media="screen">
+
+		<!-- JQuery -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+		<!-- DataTables -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+		<script type="text/javascript" src="static/script.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul id="navBar">
+				<li>
+    				<a href="/" class="navButton">
+    					Home
+    				</a>
+				</li>
+				<li>
+    				<a href="/cars" class="navButton">
+    					Cars
+    				</a>
+				</li>
+			</ul>
+		</nav>
+		<header>
+			<div id="headerContainer">
+				<div id="headerText">
+					<h1>Volvo Cars</h1>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="questionBlock">
+				<h2>Information about {{car}} </h2>
+				<p>{{description}}</p>
+			</div>
+		</section>
+		
+		<section>
+			<div class="questionBlock">
+				<p>This model is made in {{made_in}}. The car is {{length}} meter long, and {{height}} meter high. </p>
+			</div>
+		</section>
+		
+		<section>
+			<div class="questionBlock">
+				<p>The production of this model started on {{productionStart}} and ended on {{productionEnd}}.<br> The predecessor of this car is {{predecessor}}, and it's successor is {{successor}} </p>
+			</div>
+		</section>
+		
+		<section>
+			<div class="questionBlock">
+			<h2>Information seems to be missing!</h2>
+			<a href="/add_info/{{car}}"><button>Add Info</button></a>
+			<br><br>
+			</div>
+		</section>
+		
+		<section>
+			<div class="questionBlock">
+			<form action = "/cars" method = "GET">
+					<input type="submit" name="submit" value = "Go back">
+			</form>
+			</div>
+		</section>
+		
+	
+		
+		
+
+		<footer>
+			<h6>&copy; Project Knowledge and Data</h6>
+		</footer>
+	</body>
+</html>
